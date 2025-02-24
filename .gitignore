@@ -21,3 +21,4 @@ build/
 # Dependency directories
 .bower_components/
 jspm_packages/
+firebase_admin.json

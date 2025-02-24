@@ -30,7 +30,7 @@ const verifyFirebaseToken = async (req, res, next) => {
 };
 
 app.get("/protected", verifyFirebaseToken, (req, res) => {
-  res.json({ message: "Secure data accessed ", user: req.user });
+  res.json({ message: "Secure data accessed", user: req.user });
 });
 
 console.log("Process", port);
